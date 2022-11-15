@@ -1,12 +1,206 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>
-		My Site!
-	</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#01011a">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
 </head>
 <body>
-	<h1>This is my Github Pages Website!</h1>
+    <header class="myheader">
+
+        <div class="navbar">
+            <div class="logos"><img src="images/logo.png" alt="MaddyTravel" class="test"></div>
+
+            <div class="address">
+                <ul>
+                    <li><a href="#" class="tel"><i class="fa-solid fa-phone-flip"></i> +237 337 767 222</a></li>
+                    <li><a href="#" class="mail"><i class="fa-regular fa-envelope"></i> contact@admintravels.com</a></li>
+                    
+                </ul>
+            </div>
+            <div class="showbox"><ul><li><a href="#" onclick="shower()"><img src="images/menu.jpeg" alt="" id="menu1"></a></li></ul></div>
+
+            <div class="links">
+                <ul  id="show">
+                    <li><i class="fa-solid fa-house-chimney"></i><a href="index.html" class="linke" id="home">Home</a></li>
+                    <li><a href="#" class="linke">About Us</a></li>
+                    <li><a href="#" class="linke">Book now</a></li>
+                    <li><a href="#" class="linke">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="main_section">
+        <div id="slider">
+            <img src="images/laptop.jpg" alt="Dame" id="slide" width="100%">
+        </div>
+        <div class="Welcome_container">
+            <div class="Welcome_box">
+                <div class="Welcome_text">
+                    <p><a href="" class="linke"> Need a</a></p>
+                    <h1>Memorable Trip ? </h1>
+                    <span>Give a try on our best travels rates across <br> the country. why not take a nap !</span>
+                </div>
+                <div class="Welcome_btn">
+                    <a href="about.html" class="wbtn1 linke"><p>Book Now</p></a>
+                    <a href="contact.html" class="wbtn2 linke"><p>Sign in   <i class="fa-solid fa-arrow-right-from-bracket" style="color: white; padding-left: 5px;"></i></p></a>
+                </div>
+                <div class="cursor outer"></div>
+                <div class="cursor inner"></div>
+            </div>
+
+            <div class="slider_indicators">
+                <ul  class="indicators">
+                    <li class="indicator1"></li>
+                    <li class="indicator2"></li>
+                    <li class="indicator3"></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="description_section">
+        <div class="description_text">
+            <h1>What to expect from us ?</h1>
+            <div class="description_line">
+                <div class="line_cicle"></div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Laudantium accusantium hic, neque ratione porro voluptates debitis maiores aperiam eaque quasi nostrum repellat corporis aliquam repellendus rem reiciendis beatae dolor tenetur.</p>
+
+            <div class="description_box_container">
+                <div class="description_box" id="box1">
+                    <div class="description">
+                        <div class="small_line"></div>
+                        <div class="description_text">
+                            <span class="desc_title">Designed Livingroom</span>
+                            <span class="texte message">Check out our best places</span>
+                            <span class="texte rate">4.4 
+                                <span class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="long_line"><div class="long_line_cicle"></div></div>
+                    </div>
+                </div>
+
+                <div class="description_box" id="box2">
+                    <div class="description">
+                        <div class="small_line"></div>
+                        <div class="description_text">
+                            <span class="desc_title">Beautifull Bedroom</span>
+                            <span class="texte message">Check out our best places</span>
+                            <span class="texte rate">4.4 
+                                <span class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="long_line"><div class="long_line_cicle"></div></div>
+                    </div>
+                </div>
+
+                <div class="description_box" id="box3">
+                    <div class="description">
+                        <div class="small_line"></div>
+                        <div class="description_text">
+                            <span class="desc_title">Beautifull Beaches</span>
+                            <span class="texte message">Check out our best places</span>
+                            <span class="texte rate">4.4 
+                                <span class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="long_line"><div class="long_line_cicle"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="description_box"></div>
+    </div>
+
+    <div class="footer_section">
+        <div class="footer_box">
+            
+        </div>
+        <div class="foot">
+            <h1>We have the best trips rates</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Ut illo laborum ea aliquid eos molestias.</p>
+            <input type="text" placeholder="Enter your Email">
+            <button type="submit">Suscribe</button>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/81039b1397.js" crossorigin="anonymous"></script>
+
+    <script>
+
+        const cursor = document.querySelectorAll(".cursor");
+        const links = document.querySelectorAll(".linke")
+
+        window.addEventListener("mousemove", (e) => {
+
+            let x = e.pageX;
+            let y = e.pageY;
+
+            cursor.forEach(el => {
+                el.style.left=`${x+10}px`;
+                el.style.top=`${y-150}px`;
+
+                links.forEach(link => {
+                    link.addEventListener("mouseenter", () => {
+                        el.classList.add("hover");
+                    })
+                    link.addEventListener("mouseleave", () => {
+                        el.classList.remove("hover");
+                    })
+                })
+            })
+
+        })
+
+        const icone = document.querySelector("#show");
+        
+        
+        function shower(){
+            if(icone.style.left == "-100%"){
+                icone.style.left = "0px";
+                document.getElementById("menu1").src = "images/menuclose.png";
+            }
+            else{
+                icone.style.left = "-100%";
+                document.getElementById("menu1").src = "images/menu.jpeg";
+            }
+        }
+
+    /*
+        var slide = new Array("images/mousegrey.png", "images/Maddy travels sample@2x.png");
+        var numero = 0;
+        function changeslide(sens){
+            numero = numero + sens;
+            if(numero < 0)
+            numero = slide.length - 1;
+            if(numero > slide.length - 1)
+            numero = 0;
+            document.getElementById("slide").src = slide[numero];
+        }
+
+        setInterval("changeslide(1)", 4000);
+        */
+    </script>
 </body>
 </html>
